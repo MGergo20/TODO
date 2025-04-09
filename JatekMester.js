@@ -15,7 +15,7 @@ export default class JatekMester {
   esemenykezeloTorles() {
     window.addEventListener("torol", (event) => {
       console.log(event.detail);
-      this.#lista.spilce(event.detail, 1);
+      this.#lista.splice(event.detail, 1);
       this.megjelenitListaElemek();
     });
   }
